@@ -7,11 +7,11 @@ function estaVacia(variable) {
         if(type === 'undefined') {
             return true;
         }
-        if(type=== 'boolean') {
-            return !variable;
-        }
         if(variable === null) {
             return true;
+        }
+        if(type=== 'boolean') {
+            return !variable;
         }
         if(variable === undefined) {
             return true;
